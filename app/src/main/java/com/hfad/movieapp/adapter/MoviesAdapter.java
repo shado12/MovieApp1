@@ -76,8 +76,6 @@ public class  MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.MyViewHol
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         mContext.startActivity(intent);
                         Toast.makeText(v.getContext(), "You Clicked"+clickedDataItem.getOriginalTitle(), Toast.LENGTH_SHORT).show();
-
-
                     }
 
                 }
